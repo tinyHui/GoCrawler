@@ -1,0 +1,13 @@
+package: github.com/tinyhui/GoCrawler
+import:
+- package: github.com/stretchr/testify
+  version: ^1.2.0
+  subpackages:
+  - assert
+- package: github.com/sirupsen/logrus
+  version: ^1.0.4
+- package: gopkg.in/yaml.v2
+  version: ^2.2.1
+- package: golang.org/x/net
+  subpackages:
+  - html

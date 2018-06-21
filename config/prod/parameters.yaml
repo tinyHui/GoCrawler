@@ -1,0 +1,4 @@
+downloader:
+  maxConcurrentRequest: 10
+
+sitemap_dir: /tmp/sitemap.txt
